@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FizzBuzzMethod
+namespace FizzBuzz
 {
-    public class FBClass
+    public class FizzBuzzClass
     {
         public string FizzBuzzProgram(int value)
         {
