@@ -10,3 +10,5 @@ How to code FizzBuzz? (Step 1)
 A single if-else statement sufficiently filters every number to generate the correct sequence. The if-statement first vefifies the input (an integer) is a multiple of both 3 and 5. Two statements which may achieve this are 'if (value % 3 == 0 & value % 5 ==0)' and, more simply, if '(value % 15 == 0)'. If this condition is not met then the input is verified as a multiple of 3 and 5 individually. If none of these conditions are met, then the input itself is returned as an output.
 
 How to test Fizzbuzz?
+
+As there are 4 general outputs to expect—Fizz, Buzz, FizzBuzz and the returned input—the minimum number of unit tests is four. Fizz is tested by inputting any multiple of three; Buzz, any multiple of five; and FizzBuzz, any multiple of 15.
