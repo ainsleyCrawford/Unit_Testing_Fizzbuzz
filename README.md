@@ -12,3 +12,5 @@ A single if-else statement sufficiently filters every number to generate the cor
 How to test Fizzbuzz?
 
 As there are 4 general outputs to expect—Fizz, Buzz, FizzBuzz and the returned input—the minimum number of unit tests is four. Fizz is tested by inputting any multiple of three; Buzz, any multiple of five; and FizzBuzz, any multiple of 15.
+
+There are various ways to create unit tests. This particular solution involves adding a reference to a C# unit test project. This project-type automatically generates a [TestClass] attribute above a class and similar metadata, [TestMethod], above a method. After producing an object of the FizzBuzzClass the expected outputs (eg. "Fizz") can be verified against given inputs (eg. 42) using Assert.AreEqual.
