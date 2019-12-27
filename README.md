@@ -1,5 +1,5 @@
 # Unit_Testing_Fizzbuzz
-To write a Fizzbuzz program and an accompanying test case
+To write a Fizzbuzz program and accompanying test cases.
 
 ## What is Fizzbuzz?
 A fizzbuzz program counts upwards from 1, outputting whole numbers except multiples of 3, which are replaced by "Fizz", and multiples of 5, replaced by "Buzz". Common multiples output the hybrid "FizzBuzz". To demonstrate: 1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "Fizzbuzz", 16, ad infinitum.
