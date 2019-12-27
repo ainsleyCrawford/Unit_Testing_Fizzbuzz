@@ -21,7 +21,7 @@ Test Scenario Description: Verify that the fizzbuzz program returns the correct 
 
 |Test Case ID|Test Case Description|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------------------:|:-------:|:--------------:|:------------:|:----:|
-|FB-1-01     |hbhuvgvygv           |42       |"Fizz"          |"Fizz"        |Passed|
-|FB-1-02     |hbhuvgvygv           |20       |"Buzz"          |"Buzz"        |      |
-|FB-1-03     |hbhuvgvygv           |60       |"FizzBuzz"      |"FizzBuzz"    |      |
-|FB-1-04     |hbhuvgvygv           |11       |"11"            |"11"          |      |
+|FB-1-01     |Input is divisible by 3, but not 5.|42       |"Fizz"          |"Fizz"        |Passed|
+|FB-1-02     |Input is divisible by 5, but not 3.|20       |"Buzz"          |"Buzz"        |Passed|
+|FB-1-03     |Input is divisible by 3 and 5.|60       |"FizzBuzz"      |"FizzBuzz"    |Passed|
+|FB-1-04     |Input is neither divisible by 3 nor 5.|11       |"11"            |"11"          |Passed|
