@@ -17,7 +17,7 @@ There are various ways to create unit tests. This particular solution involves a
 **Created By:** Ainsley  
 **Creation Date:** 27/12/19  
 **Test Scenario ID:** FB-1  
-**Test Scenario Description:** Verify that the fizzbuzz program returns the correct string: "Fizz", "Buzz", "FizzBuzz" or the equivalent string of the inputter integer.
+**Test Scenario Description:** Verify that the fizzbuzz program returns the correct string: "Fizz", "Buzz", "FizzBuzz" or the equivalent string of the inputted integer.
 
 |Test Case ID|Test Case Description|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------------------:|:-------:|:--------------:|:------------:|:----:|
