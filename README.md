@@ -10,15 +10,18 @@ A single if-else statement sufficiently filters every number to generate the cor
 ### How to test Fizzbuzz?
 As there are 4 general outputs to expect—Fizz, Buzz, FizzBuzz and the returned input—the minimum number of unit tests is four. Fizz is tested by inputting any multiple of three; Buzz, any multiple of five; and FizzBuzz, any multiple of 15.
 
-There are various ways to create unit tests. This particular solution involves adding a reference to a C# unit test project. This project-type automatically generates a [TestClass] attribute above a class and similar metadata, [TestMethod], above a method. After producing an object of the FizzBuzzClass the expected outputs (eg. "Fizz") can be verified against given inputs (eg. 42) using Assert.AreEqual.
+There are various ways to create unit tests. This particular solution involves adding a reference to a C# unit test project. This project-type automatically generates a `[TestClass]` attribute above a class and similar metadata, `[TestMethod]`, above a method. After producing an object of `FizzBuzzClass` the expected outputs (eg. "Fizz") can be verified against given inputs (eg. 42) using `Assert.AreEqual`.
 
 ### Test Case
 Project Name: Fizzbuzz  
 Created By: Ainsley  
 Creation Date: 27/12/19  
-Test Scenarion ID:  
-Test Scenarion Description:  
+Test Scenario ID: FB-1  
+Test Scenario Description: Verify that the fizzbuzz program returns the correct string: "Fizz", "Buzz", "FizzBuzz" or the equivalent string of the inputter integer.
 
 |Test Case ID|Test Case Description|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------------------:|:-------:|:--------------:|:------------:|:----:|
-|hjbbjbb     |hbhuvgvygv           |jbbuhbub |                |              |      |
+|FB-1-01     |hbhuvgvygv           |42       |"Fizz"          |"Fizz"        |Passed|
+|FB-1-02     |hbhuvgvygv           |20       |"Buzz"          |"Buzz"        |      |
+|FB-1-03     |hbhuvgvygv           |60       |"FizzBuzz"      |"FizzBuzz"    |      |
+|FB-1-04     |hbhuvgvygv           |11       |"11"            |"11"          |      |
