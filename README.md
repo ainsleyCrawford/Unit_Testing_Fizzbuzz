@@ -13,11 +13,11 @@ As there are 4 general outputs to expect—Fizz, Buzz, FizzBuzz and the returned
 There are various ways to create unit tests. This particular solution involves adding a reference to a C# unit test project. This project-type automatically generates a `[TestClass]` attribute above a class and similar metadata, `[TestMethod]`, above a method. After producing an object of `FizzBuzzClass` the expected outputs (eg. "Fizz") can be verified against given inputs (eg. 42) using `Assert.AreEqual`.
 
 ### Test Case
-Project Name: Fizzbuzz  
-Created By: Ainsley  
-Creation Date: 27/12/19  
-Test Scenario ID: FB-1  
-Test Scenario Description: Verify that the fizzbuzz program returns the correct string: "Fizz", "Buzz", "FizzBuzz" or the equivalent string of the inputter integer.
+**Project Name:** Fizzbuzz  
+**Created By:** Ainsley  
+**Creation Date:** 27/12/19  
+**Test Scenario ID:** FB-1  
+**Test Scenario Description:** Verify that the fizzbuzz program returns the correct string: "Fizz", "Buzz", "FizzBuzz" or the equivalent string of the inputter integer.
 
 |Test Case ID|Test Case Description|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------------------:|:-------:|:--------------:|:------------:|:----:|
