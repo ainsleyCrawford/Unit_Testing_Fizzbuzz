@@ -42,9 +42,9 @@ There are various ways to create unit tests. This particular solution involves a
 **Test Condition Description:** Verify that the fizzbuzz program returns "Fizzbuzz" when the input is divisible by fifteen.  
 **High-Level Test Case:** Input is divisible by 15; thus "Fizzbuzz" is outputted.
 
-|Test Case ID|Test Case Description|Test Data|Expected Outcome|Actual Outcome|Status|
+|Test Case ID|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------:|:--------------:|:------------:|:----:|
-|FB-3-01     |15       |"FizzBuzz"          |"FizzBuzz"        |Passed|
+|FB-3-01     |15       |"FizzBuzz"      |"FizzBuzz"    |Passed|
 |FB-3-02     |-30      |"FizzBuzz"          |"FizzBuzz"        |Passed|
 |FB-3-03     |45       |"FizzBuzz"      |"FizzBuzz"    |Passed|
 |FB-3-04     |60       |"FizzBuzz"            |"FizzBuzz"          |Passed|
@@ -53,8 +53,8 @@ There are various ways to create unit tests. This particular solution involves a
 **Test Condition Description:** Verify that the fizzbuzz program returns the inputted number when it is neither divisible by 3 nor 5.  
 **High-Level Test Case:** Input is neither divisible by 3 nor 5; thus the input is outputted.
 
-|Test Case ID|Test Case Description|Test Data|Expected Outcome|Actual Outcome|Status|
-|:----------:|:-------------------:|:-------:|:--------------:|:------------:|:----:|
+|Test Case ID|Test Data|Expected Outcome|Actual Outcome|Status|
+|:----------:|:-------:|:--------------:|:------------:|:----:|
 |FB-4-01     |1       |"1"          |"1"        |Passed|
 |FB-4-02     |-4       |"-4"          |"-4"        |Passed|
 |FB-4-03     |7       |"7"      |"7"    |Passed|
