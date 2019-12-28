@@ -13,3 +13,18 @@ C:\Users\ainsl\Desktop\GitHub Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\o
 C:\Users\ainsl\Desktop\GitHub Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
 C:\Users\ainsl\Desktop\GitHub Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\Users\ainsl\Desktop\GitHub Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\bin\Debug\FizzBuzz.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\bin\Debug\FizzBuzz.pdb
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssemblyReference.cache
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
