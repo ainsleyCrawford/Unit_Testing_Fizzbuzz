@@ -20,12 +20,12 @@ There are various ways to create unit tests. This particular solution involves a
 **Test Condition Description:** Verify that the fizzbuzz program returns "Fizz" when the input is divisible by three and not five.  
 **High-Level Test Case:** Input is divisible by 3, but not by 5; thus "Fizz" is outputted.
 
-|Test Case ID|Test Case Description|Test Data|Expected Outcome|Actual Outcome|Status|
-|:----------:|:-------------------:|:-------:|:--------------:|:------------:|:----:|
-|FB-1-01     |Input is divisible by 3, but not 5.|42       |"Fizz"          |"Fizz"        |Passed|
-|FB-1-02     |Input is divisible by 5, but not 3.|20       |"Buzz"          |"Buzz"        |Passed|
-|FB-1-03     |Input is divisible by 3 and 5.|60       |"FizzBuzz"      |"FizzBuzz"    |Passed|
-|FB-1-04     |Input is neither divisible by 3 nor 5.|11       |"11"            |"11"          |Passed|
+|Test Case ID|Test Data|Expected Outcome|Actual Outcome|Status|
+|:----------:|:-------:|:--------------:|:------------:|:----:|
+|FB-1-01     |42       |"Fizz"          |"Fizz"        |Passed|
+|FB-1-02     |20       |"Fizz"          |"Fizz"        |Passed|
+|FB-1-03     |60       |"Fizz"          |"Fizz"        |Passed|
+|FB-1-04     |11       |"Fizz"          |"Fizz"        |Passed|
 
 **Test Condition ID:** FB-2  
 **Test Condition Description:** Verify that the fizzbuzz program returns "Buzz" when the input is divisible by five and not three.  
