@@ -22,10 +22,10 @@ There are various ways to create unit tests. This particular solution involves a
 
 |Test Case ID|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------:|:--------------:|:------------:|:----:|
-|FB-1-01     |3        |"Fizz"          |"Fizz"        |Passed|
-|FB-1-02     |-3       |"Fizz"          |"Fizz"        |Passed|
-|FB-1-03     |-6       |"Fizz"          |"Fizz"        |Passed|
-|FB-1-04     |42       |"Fizz"          |"Fizz"        |Passed|
+|A-01     |3        |"Fizz"          |"Fizz"        |Passed|
+|A-02     |-3       |"Fizz"          |"Fizz"        |Passed|
+|A-03     |-6       |"Fizz"          |"Fizz"        |Passed|
+|A-04     |42       |"Fizz"          |"Fizz"        |Passed|
 
 **Test Condition ID:** B  
 **Test Condition Description:** Verify that the fizzbuzz program returns "Buzz" when the input is divisible by five and not three.  
@@ -33,10 +33,10 @@ There are various ways to create unit tests. This particular solution involves a
 
 |Test Case ID|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------:|:--------------:|:------------:|:----:|
-|FB-2-01     |5        |"Buzz"          |"Buzz"        |Passed|
-|FB-2-02     |-10      |"Buzz"          |"Buzz"        |Passed|
-|FB-2-03     |20       |"Buzz"      |"Buzz"    |Passed|
-|FB-2-04     |605      |"Buzz"            |"Buzz"          |Passed|
+|B-01     |5        |"Buzz"          |"Buzz"        |Passed|
+|B-02     |-10      |"Buzz"          |"Buzz"        |Passed|
+|B-03     |20       |"Buzz"      |"Buzz"    |Passed|
+|B-04     |605      |"Buzz"            |"Buzz"          |Passed|
 
 **Test Condition ID:** C  
 **Test Condition Description:** Verify that the fizzbuzz program returns "Fizzbuzz" when the input is divisible by fifteen.  
@@ -44,10 +44,10 @@ There are various ways to create unit tests. This particular solution involves a
 
 |Test Case ID|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------:|:--------------:|:------------:|:----:|
-|FB-3-01     |15       |"FizzBuzz"      |"FizzBuzz"    |Passed|
-|FB-3-02     |-30      |"FizzBuzz"          |"FizzBuzz"        |Passed|
-|FB-3-03     |45       |"FizzBuzz"      |"FizzBuzz"    |Passed|
-|FB-3-04     |60       |"FizzBuzz"            |"FizzBuzz"          |Passed|
+|C-01     |15       |"FizzBuzz"      |"FizzBuzz"    |Passed|
+|C-02     |-30      |"FizzBuzz"          |"FizzBuzz"        |Passed|
+|C-03     |45       |"FizzBuzz"      |"FizzBuzz"    |Passed|
+|C-04     |60       |"FizzBuzz"            |"FizzBuzz"          |Passed|
 
 **Test Condition ID:** D  
 **Test Condition Description:** Verify that the fizzbuzz program returns the inputted number when it is neither divisible by 3 nor 5.  
@@ -55,7 +55,7 @@ There are various ways to create unit tests. This particular solution involves a
 
 |Test Case ID|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------:|:--------------:|:------------:|:----:|
-|FB-4-01     |1       |"1"          |"1"        |Passed|
-|FB-4-02     |-4       |"-4"          |"-4"        |Passed|
-|FB-4-03     |7       |"7"      |"7"    |Passed|
-|FB-4-04     |11       |"11"            |"11"          |Passed|
+|D-01     |1       |"1"          |"1"        |Passed|
+|D-02     |-4       |"-4"          |"-4"        |Passed|
+|D-03     |7       |"7"      |"7"    |Passed|
+|D-04     |11       |"11"            |"11"          |Passed|
