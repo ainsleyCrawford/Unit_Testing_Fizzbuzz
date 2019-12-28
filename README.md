@@ -1,5 +1,5 @@
 # Unit_Testing_Fizzbuzz
-To write a Fizzbuzz program and accompanying test cases.
+To write a Fizzbuzz program and accompanying low-level test cases.
 
 ## Test Basis: What is Fizzbuzz?
 A fizzbuzz program counts upwards from 1, outputting whole numbers except multiples of 3, which are replaced by "Fizz", and multiples of 5, replaced by "Buzz". Common multiples output the hybrid "FizzBuzz". To demonstrate: 1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "Fizzbuzz", 16, ad infinitum.
@@ -17,8 +17,8 @@ There are various ways to create unit tests. This particular solution involves a
 **Created By:** Ainsley  
 **Creation Date:** 27/12/19  
 **Test Condition ID:** FB-1  
-**Test Condition Description:** Verify that the fizzbuzz program returns "Fizz" when the input is divisible by three.  
-**High-level Test Case:** Input is divisible by 3, but not by 5.
+**Test Condition Description:** Verify that the fizzbuzz program returns "Fizz" when the input is divisible by three and not five.  
+**High-level Test Case:** Input is divisible by 3, but not by 5; thus "Fizz" is outputted.
 
 |Test Case ID|Test Case Description|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------------------:|:-------:|:--------------:|:------------:|:----:|
@@ -28,7 +28,8 @@ There are various ways to create unit tests. This particular solution involves a
 |FB-1-04     |Input is neither divisible by 3 nor 5.|11       |"11"            |"11"          |Passed|
 
 **Test Condition ID:** FB-2  
-**Test Condition Description:** Verify that the fizzbuzz program returns "Fizz" when the input is divisible by three.
+**Test Condition Description:** Verify that the fizzbuzz program returns "Buzz" when the input is divisible by five and not three.  
+**High-level Test Case:** Input is divisible by 5, but not 3; thus "Buzz" is outputted.
 
 |Test Case ID|Test Case Description|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------------------:|:-------:|:--------------:|:------------:|:----:|
@@ -38,7 +39,8 @@ There are various ways to create unit tests. This particular solution involves a
 |FB-2-04     |Input is neither divisible by 3 nor 5.|11       |"11"            |"11"          |Passed|
 
 **Test Condition ID:** FB-3  
-**Test Condition Description:** Verify that the fizzbuzz program returns "Fizz" when the input is divisible by three.
+**Test Condition Description:** Verify that the fizzbuzz program returns "Fizzbuzz" when the input is divisible by fifteen.  
+**High-level Test Case:** Input is divisible by 15; thus "Fizzbuzz" is outputted.
 
 |Test Case ID|Test Case Description|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------------------:|:-------:|:--------------:|:------------:|:----:|
@@ -48,7 +50,8 @@ There are various ways to create unit tests. This particular solution involves a
 |FB-3-04     |Input is neither divisible by 3 nor 5.|11       |"11"            |"11"          |Passed|
 
 **Test Condition ID:** FB-4  
-**Test Condition Description:** Verify that the fizzbuzz program returns "Fizz" when the input is divisible by three.
+**Test Condition Description:** Verify that the fizzbuzz program returns the inputted number when it is neither divisible by 3 nor 5.  
+**High-level Test Case:** Input is neither divisible by 3 nor 5; thus the input is outputted.
 
 |Test Case ID|Test Case Description|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------------------:|:-------:|:--------------:|:------------:|:----:|
