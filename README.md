@@ -4,10 +4,10 @@ The aim of this project was to verify a fizzbuzz program through component testi
 ## Test Basis: What is Fizzbuzz?
 A fizzbuzz program counts upwards from 1, outputting whole numbers except multiples of 3, which are replaced by "Fizz", and multiples of 5, replaced by "Buzz". Common multiples output the hybrid "FizzBuzz". To demonstrate: 1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "Fizzbuzz", 16, ad infinitum.
 
-## How to code FizzBuzz?
+## Program Specification: How to Code FizzBuzz
 A single if-else statement sufficiently filters every number to generate the correct sequence. The if-statement first vefifies the input (an integer) is a multiple of both 3 and 5. Two statements which may achieve this are `if (value % 3 == 0 & value % 5 == 0)` and, more simply, `if (value % 15 == 0)`. If this condition is not met then the input is verified as a multiple of 3 and 5 individually. If none of these conditions are met, then the input itself is returned as an output.
 
-## How to test Fizzbuzz?
+## Unit Test Planning: How to Test Fizzbuzz
 As there are 4 general outputs to expect—Fizz, Buzz, FizzBuzz and the returned input—the minimum number of unit tests is four, assuming each unit test acts as a test case for a different test condition. Fizz is tested by inputting any multiple of three; Buzz, any multiple of five; and FizzBuzz, any multiple of 15.
 
 There are various ways to create unit tests. This particular solution involves adding a reference to a C# unit test project. This project-type automatically generates a `[TestClass]` attribute above a class and similar metadata, `[TestMethod]`, above a method. After producing an object of `FizzBuzzClass` the expected outputs (eg. "Fizz") can be verified against given inputs (eg. 42) using `Assert.AreEqual`.
@@ -22,10 +22,10 @@ There are various ways to create unit tests. This particular solution involves a
 
 |Test Case ID|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------:|:--------------:|:------------:|:----:|
-|A-01     |3        |"Fizz"          |"Fizz"        |Passed|
-|A-02     |-3       |"Fizz"          |"Fizz"        |Passed|
-|A-03     |-6       |"Fizz"          |"Fizz"        |Passed|
-|A-04     |42       |"Fizz"          |"Fizz"        |Passed|
+|A-01        |3        |"Fizz"          |"Fizz"        |Passed|
+|A-02        |-3       |"Fizz"          |"Fizz"        |Passed|
+|A-03        |-6       |"Fizz"          |"Fizz"        |Passed|
+|A-04        |42       |"Fizz"          |"Fizz"        |Passed|
 
 **Test Condition ID:** B  
 **Test Condition Description:** Verify that the fizzbuzz program returns "Buzz" when the input is divisible by five and not three.  
@@ -33,10 +33,10 @@ There are various ways to create unit tests. This particular solution involves a
 
 |Test Case ID|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------:|:--------------:|:------------:|:----:|
-|B-01     |5        |"Buzz"          |"Buzz"        |Passed|
-|B-02     |-10      |"Buzz"          |"Buzz"        |Passed|
-|B-03     |20       |"Buzz"      |"Buzz"    |Passed|
-|B-04     |605      |"Buzz"            |"Buzz"          |Passed|
+|B-01        |5        |"Buzz"          |"Buzz"        |Passed|
+|B-02        |-10      |"Buzz"          |"Buzz"        |Passed|
+|B-03        |20       |"Buzz"          |"Buzz"        |Passed|
+|B-04        |605      |"Buzz"          |"Buzz"        |Passed|
 
 **Test Condition ID:** C  
 **Test Condition Description:** Verify that the fizzbuzz program returns "Fizzbuzz" when the input is divisible by fifteen.  
@@ -44,10 +44,10 @@ There are various ways to create unit tests. This particular solution involves a
 
 |Test Case ID|Test Data|Expected Outcome|Actual Outcome|Status|
 |:----------:|:-------:|:--------------:|:------------:|:----:|
-|C-01     |15       |"FizzBuzz"      |"FizzBuzz"    |Passed|
-|C-02     |-30      |"FizzBuzz"          |"FizzBuzz"        |Passed|
-|C-03     |45       |"FizzBuzz"      |"FizzBuzz"    |Passed|
-|C-04     |60       |"FizzBuzz"            |"FizzBuzz"          |Passed|
+|C-01        |15       |"FizzBuzz"      |"FizzBuzz"    |Passed|
+|C-02        |-30      |"FizzBuzz"          |"FizzBuzz"        |Passed|
+|C-03        |45       |"FizzBuzz"      |"FizzBuzz"    |Passed|
+|C-04        |60       |"FizzBuzz"            |"FizzBuzz"          |Passed|
 
 **Test Condition ID:** D  
 **Test Condition Description:** Verify that the fizzbuzz program returns the inputted number when it is neither divisible by 3 nor 5.  
