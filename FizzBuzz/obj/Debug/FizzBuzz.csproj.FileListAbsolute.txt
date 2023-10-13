@@ -3,3 +3,9 @@ C:\Users\ainsl\Desktop\GitHub Portfolio\Unit Testing\FizzBuzz\FizzBuzz\bin\Debug
 C:\Users\ainsl\Desktop\GitHub Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csprojAssemblyReference.cache
 C:\Users\ainsl\Desktop\GitHub Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.dll
 C:\Users\ainsl\Desktop\GitHub Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csproj.AssemblyReference.cache
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb

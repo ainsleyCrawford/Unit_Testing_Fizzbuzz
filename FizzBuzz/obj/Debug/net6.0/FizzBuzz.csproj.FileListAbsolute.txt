@@ -1,0 +1,9 @@
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\bin\Debug\net6.0\FizzBuzz.deps.json
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\bin\Debug\net6.0\FizzBuzz.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\bin\Debug\net6.0\FizzBuzz.pdb
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\net6.0\refint\FizzBuzz.dll
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.pdb
+C:\Users\ainsl\Desktop\Portfolio\Unit Testing\FizzBuzz\FizzBuzz\obj\Debug\net6.0\ref\FizzBuzz.dll
