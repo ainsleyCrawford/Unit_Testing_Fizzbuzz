@@ -6179,9 +6179,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ainsl\\Desktop\\Portfolio\\Unit Testing\\FizzBuzz\\UnitTestProject1\\UnitTestProject1.csproj",
-      "projectName": "UnitTestProject1",
-      "projectPath": "C:\\Users\\ainsl\\Desktop\\Portfolio\\Unit Testing\\FizzBuzz\\UnitTestProject1\\UnitTestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\ainsl\\Desktop\\Portfolio\\Unit Testing\\FizzBuzz\\UnitTestProject1\\FizzBuzz.Test.csproj",
+      "projectName": "FizzBuzz.Test",
+      "projectPath": "C:\\Users\\ainsl\\Desktop\\Portfolio\\Unit Testing\\FizzBuzz\\UnitTestProject1\\FizzBuzz.Test.csproj",
       "packagesPath": "C:\\Users\\ainsl\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ainsl\\Desktop\\Portfolio\\Unit Testing\\FizzBuzz\\UnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",

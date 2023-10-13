@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FizzBuzz
+﻿namespace FizzBuzzNS
 {
-    public class FizzBuzzClass
+    public class FizzBuzz
     {
-        public string FizzBuzzProgram(int value)
+        public string FizzBuzzMethod(int value)
         {
-            if (value % 3 == 0 & value % 5 == 0)
+            if (value % 3 == 0 && value % 5 == 0)
             {
                 return "FizzBuzz";
             }
